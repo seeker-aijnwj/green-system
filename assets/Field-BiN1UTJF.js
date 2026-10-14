@@ -1,0 +1,1 @@
+import{j as e}from"./index-DOFA_x_k.js";function i({label:r,id:s,as:l="input",children:n,...t}){return e.jsxs("div",{className:"field",children:[e.jsx("label",{htmlFor:s,children:r}),e.jsx(l,{id:s,name:s,...t,children:n})]})}export{i as F};

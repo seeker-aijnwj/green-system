@@ -1,0 +1,1 @@
+import{j as e}from"./index-DOFA_x_k.js";import{S as s}from"./Seo-BP7b7chN.js";import{O as o}from"./OrdersBoard-DPGXOpUK.js";function m(){return e.jsxs("div",{className:"page",children:[e.jsx(s,{title:"Commandes",path:"/administration/commandes",noindex:!0,description:"Suivi des bons de commande."}),e.jsx("h1",{children:"Bons de commande"}),e.jsx(o,{})]})}export{m as default};

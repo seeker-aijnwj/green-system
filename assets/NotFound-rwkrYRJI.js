@@ -1,0 +1,1 @@
+import{j as e,a as t}from"./index-DOFA_x_k.js";import{S as i}from"./Seo-BP7b7chN.js";function s(){return e.jsxs("div",{className:"page",children:[e.jsx(i,{title:"Page introuvable",noindex:!0,description:"Cette page n'existe pas."}),e.jsx("h1",{children:"Page introuvable"}),e.jsx("p",{children:e.jsx(t,{to:"/",children:"Retourner à l'accueil"})})]})}export{s as default};
