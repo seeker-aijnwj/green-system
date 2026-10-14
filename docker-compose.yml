@@ -1,0 +1,11 @@
+# Outils de développement : docker compose up -d
+services:
+  db:                       # PostgreSQL local : STORAGE=postgres, DATABASE_URL=postgres://greensystem:change-me@localhost:5432/greensystem
+    image: postgres:16
+    environment: { POSTGRES_USER: greensystem, POSTGRES_PASSWORD: change-me, POSTGRES_DB: greensystem }
+    ports: ["5432:5432"]
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+  mailpit:                  # Boîte e-mail de test : EMAIL_PROVIDER=smtp, SMTP_URL=smtp://localhost:1025, lecture sur http://localhost:8025
+    image: axllent/mailpit
+    ports: ["1025:1025", "8025:8025"]
+volumes: { pgdata: {} }

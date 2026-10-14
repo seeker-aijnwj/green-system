@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /espace-membre
+Disallow: /administration
+Disallow: /espace-agent
+Disallow: /espace-client
+Disallow: /connexion
+Disallow: /inscription
+Sitemap: https://www.example.ci/sitemap.xml
